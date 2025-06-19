@@ -43,8 +43,8 @@ async function startCheckout() {
         hasHolderName: true,
         holderNameRequired: true,
         amount: {
-          value: 10000,
-          currency: "EUR",
+          value: 1000,
+          currency: "INR",
         },
         placeholders: {
           cardNumber: "1234 5678 9012 3456",
