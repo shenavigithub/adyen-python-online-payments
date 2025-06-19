@@ -20,7 +20,7 @@ Parameters
 def adyen_sessions(host_url):
     adyen = Adyen.Adyen()
     adyen.payment.client.xapikey = get_adyen_api_key()
-    adyen.payment.client.platform = "test"  # change to live for production
+    adyen.payment.client.platform = "live-in"  # change to live for production
     adyen.payment.client.merchant_account = get_adyen_merchant_account()
 
     request = {}

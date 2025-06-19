@@ -14,7 +14,7 @@ async function startCheckout() {
     const configuration = {
       session: session,
       clientKey,
-      environment: "test",
+      environment: "live-in",
       locale: "en_US",
       countryCode: "NL",
       showPayButton: true,
