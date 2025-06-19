@@ -21,6 +21,7 @@ def adyen_sessions(host_url):
     adyen = Adyen.Adyen()
     adyen.payment.client.xapikey = get_adyen_api_key()
     adyen.payment.client.platform = "live-in"  # change to live for production
+    adyen.client.live_endpoint_prefix = "8949b923f75af6b1-AdyenTechSupportIndia"
     adyen.payment.client.merchant_account = get_adyen_merchant_account()
 
     request = {}

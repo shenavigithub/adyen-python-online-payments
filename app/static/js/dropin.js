@@ -16,7 +16,7 @@ async function startCheckout() {
       clientKey,
       environment: "live-in",
       locale: "en_US",
-      countryCode: "NL",
+      countryCode: "IN",
       showPayButton: true,
       translations: {
         "en-US": {
